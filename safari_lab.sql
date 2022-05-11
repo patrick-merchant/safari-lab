@@ -92,3 +92,5 @@ WHERE employee_id = 1;
 SELECT COUNT (DISTINCT employee_id)
 FROM assignments
 WHERE enclosure_id = 1;
+
+-- "()" says we are running a sub-query - this will run first, before the whole query runs.
